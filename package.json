@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@types/react-datepicker": "^4.19.5",
+    "autoprefixer": "^10.4.16",
     "emailjs-com": "^3.2.0",
     "formik": "^2.4.5",
     "next": "14.0.4",
@@ -27,7 +28,6 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "autoprefixer": "^10.4.16",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
     "postcss": "^8.4.32",
