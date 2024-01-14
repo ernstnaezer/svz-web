@@ -9,7 +9,7 @@ const developmentConfig = {
 /** @type {import('next').NextConfig} */
 const productionConfig = {
   output: 'export',
-  basePath: '/9a8fc5ba-9b06-4e37-94d5-37fcd36eac7e',
+  basePath: '/out',
   reactStrictMode: true,
   images: {
     loader: 'custom',
