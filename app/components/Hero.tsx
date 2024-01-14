@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import ExportedImage from 'next-image-export-optimizer';
+import Image from 'next/image';
 
 import heroImg from '../../public/img/hero.png';
 
@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
 
         <div className='flex flex-1 items-end justify-end'>
-          <ExportedImage
+          <Image
             src={heroImg}
             alt='De mensen van de vereniging'
             className='h-auto max-w-full'

@@ -1,4 +1,4 @@
-import ExportedImage from 'next-image-export-optimizer';
+import Image from 'next/image';
 
 import shieldImg from '../../public/img/svz-shield.png';
 
@@ -12,7 +12,7 @@ const Shield = () => {
             Kom gezellig langs en verbeter je vaardigheden. Elke week op
             maandag, donderdag en vrijdag!
           </p>
-          <ExportedImage src={shieldImg} alt='logo' className='w-1/2' />
+          <Image src={shieldImg} alt='logo' className='w-1/2' />
         </div>
 
         {/* - Second column - */}

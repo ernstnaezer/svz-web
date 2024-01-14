@@ -1,4 +1,4 @@
-import ExportedImage from 'next-image-export-optimizer';
+import Image from 'next/image';
 import ContentLayout from '../../ContentLayout';
 
 import shieldImg from '../../../public/img/svz-shield.png';
@@ -9,11 +9,7 @@ export default function Page() {
       <article className='prose lg:prose-lg'>
         <h3>Waardenmanifest</h3>
         <div className='flex justify-center'>
-          <ExportedImage
-            src={shieldImg}
-            alt='logo'
-            className='w-1/2 md:w-1/4'
-          />
+          <Image src={shieldImg} alt='logo' className='w-1/2 md:w-1/4' />
         </div>
         <h4>VEILIGHEID</h4>
         <p>Wij spreken elkaar serieus aan op onveilige situaties.</p>

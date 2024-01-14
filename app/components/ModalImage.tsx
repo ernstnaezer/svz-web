@@ -1,9 +1,7 @@
 'use client';
-import { StaticImageData } from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import React, { useState } from 'react';
 import Modal from './Modal';
-
-import ExportedImage from 'next-image-export-optimizer';
 
 type ModalImageProps = {
   imageUrl: StaticImageData;
@@ -17,7 +15,7 @@ const ModalImage: React.FC<ModalImageProps> = ({ imageUrl }) => {
 
   return (
     <>
-      <ExportedImage
+      <Image
         src={imageUrl}
         alt='Thumbnail'
         className='cursor-pointer'

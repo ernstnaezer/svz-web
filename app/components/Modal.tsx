@@ -1,7 +1,5 @@
-import { StaticImageData } from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import React, { useEffect } from 'react';
-
-import ExportedImage from 'next-image-export-optimizer';
 
 type ModalProps = {
   imageUrl: StaticImageData;
@@ -54,7 +52,7 @@ const Modal: React.FC<ModalProps> = ({ imageUrl, isOpen, onClose }) => {
         className='relative max-h-full max-w-3xl overflow-auto rounded-md bg-gray-800 px-8 shadow-lg'
         onClick={(e) => e.stopPropagation()}
       >
-        <ExportedImage
+        <Image
           src={imageUrl}
           alt='Popup'
           className='mx-auto block max-h-full max-w-full object-contain'

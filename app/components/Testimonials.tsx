@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
+import Image from 'next/image';
 
-import ExportedImage from 'next-image-export-optimizer';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 
@@ -97,7 +97,7 @@ const Testimonials = () => {
 
                   {/* - Second column - */}
                   <div className='relative md:col-span-1'>
-                    <ExportedImage
+                    <Image
                       src={`${basePath}/${item.imageSrc}`}
                       alt={item.name}
                       width={1023}
