@@ -9,7 +9,6 @@ const developmentConfig = {
 /** @type {import('next').NextConfig} */
 const productionConfig = {
   output: 'export',
-  basePath: '/out',
   reactStrictMode: true,
   images: {
     unoptimized: true,
