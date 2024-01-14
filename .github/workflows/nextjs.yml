@@ -71,11 +71,11 @@ jobs:
     needs: build
     steps:
       - name: ftp-action
-        uses: sebastianpopp/ftp-action@v2.0.0
+        uses: sebastianpopp/ftp-action@releases/v2
         with:
-          host: ${{ secrets.HOST }}
-          user: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
-          forceSsl: false
-          localDir: out
-          remoteDir: out
+          host: ${{ secrets.FTP_SERVER }}
+          user: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          localDir: 'out'
+          remoteDir: 'out'
+          options: '--delete --asci'
