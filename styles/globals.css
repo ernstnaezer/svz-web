@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+}
+
+:root {
+  --swiper-navigation-color: #122f45;
+  --swiper-pagination-color: #122f45;
+}
+
+body {
+  font-family: var(--font-roboto);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-montserrat);
+}
+
+nav {
+  font-family: var(--font-montserrat);
+}
+
+.btn {
+  @apply w-fit rounded px-4 py-2;
+}
+
+nav {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  @apply bg-eastern-blue text-white;
+}
+
+.btn-primary:hover {
+  @apply bg-eastern-blue-700;
+}
+
+.btn-primary:disabled:hover {
+  @apply bg-eastern-blue;
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  @apply bg-fire-bush text-white;
+}
+
+.btn-secondary:hover {
+  @apply bg-fire-bush-700;
+}
