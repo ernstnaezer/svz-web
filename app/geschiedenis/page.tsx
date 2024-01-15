@@ -61,14 +61,7 @@ export default function Page() {
           zijn.
         </p>
         <p>
-          Door de groei van het ledental en de beperkingen ten aanzien van het
-          grootkaliber pistoolschieten op 25 meter, is de vereniging nu al sinds
-          jaren in intensief overleg met de gemeente voor de aanbouw van
-          25-meter banen. De gemeente heeft destijds beslist dat de
-          schietsportvereniging gehandhaafd zal blijven op de huidige locatie.
-          Echter door ouderdom en ingrepen in de omgeving is het pand aan het
-          zakken. Het overleg met gemeente en plaatselijke politiek is hierdoor
-          geïntensiveerd.
+          Met het groeiende aantal leden en de uitdagingen van ons huidige, verouderde pand, is het bestuur van de vereniging al enige tijd in gesprek met de gemeente. We richten ons op het vinden van een geheel nieuwe huisvesting in Zoetermeer. Dit komt voort uit de toenemende behoefte aan meer ruimte en de noodzaak voor duurzamere faciliteiten. Onze gesprekken met de gemeente en lokale politiek zijn in een intensievere fase beland om deze doelen te realiseren.
         </p>
       </article>
     </ContentLayout>
