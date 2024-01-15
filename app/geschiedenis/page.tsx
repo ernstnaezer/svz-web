@@ -61,7 +61,13 @@ export default function Page() {
           zijn.
         </p>
         <p>
-          Met het groeiende aantal leden en de uitdagingen van ons huidige, verouderde pand, is het bestuur van de vereniging al enige tijd in gesprek met de gemeente. We richten ons op het vinden van een geheel nieuwe huisvesting in Zoetermeer. Dit komt voort uit de toenemende behoefte aan meer ruimte en de noodzaak voor duurzamere faciliteiten. Onze gesprekken met de gemeente en lokale politiek zijn in een intensievere fase beland om deze doelen te realiseren.
+          Met het groeiende aantal leden en de uitdagingen van ons huidige,
+          verouderde pand, is het bestuur van de vereniging al enige tijd in
+          gesprek met de gemeente. We richten ons op het vinden van een geheel
+          nieuwe huisvesting in Zoetermeer. Dit komt voort uit de toenemende
+          behoefte aan meer ruimte en de noodzaak voor duurzamere faciliteiten.
+          Onze gesprekken met de gemeente en lokale politiek zijn in een
+          intensievere fase beland om deze doelen te realiseren.
         </p>
       </article>
     </ContentLayout>
