@@ -117,8 +117,16 @@ export default function Page() {
           gezelligheid en sportiviteit, maar ook aan de veiligheid van onze
           leden, de samenleving en het milieu.
         </p>
-        <h3>Externe Vertrouwenspersoon</h3>
-<p>wij hechten veel waarde aan een veilige en vertrouwelijke omgeving voor al onze leden. Daarom hebben we een externe vertrouwenspersoon aangesteld. Deze vertrouwenspersoon, onafhankelijk en niet direct verbonden aan onze vereniging, staat klaar voor iedereen die behoefte heeft aan een luisterend oor of advies bij persoonlijke problemen of zorgen binnen de vereniging. De vertrouwenspersoon is er om je te ondersteunen en te begeleiden in vertrouwelijke kwesties, met de garantie van volledige discretie.</p>
+        <h3>Interne Vertrouwenspersoon</h3>
+        <p>
+          Wij hechten we veel waarde aan een veilige en vertrouwelijke omgeving
+          voor al onze leden. Daarom hebben we een interne vertrouwenspersoon
+          aangesteld. Deze persoon, verbonden aan onze vereniging, staat klaar
+          voor iedereen die behoefte heeft aan een luisterend oor of advies bij
+          persoonlijke problemen of zorgen binnen de vereniging. De
+          vertrouwenspersoon is er om je te ondersteunen en te begeleiden in
+          vertrouwelijke kwesties, met de garantie van volledige discretie.
+        </p>
       </article>
     </ContentLayout>
   );
