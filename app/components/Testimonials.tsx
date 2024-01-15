@@ -69,8 +69,6 @@ const testimonials = [
   },
 ];
 
-import { basePath } from '../../next.config';
-
 const Testimonials = () => {
   return (
     <>
@@ -98,7 +96,7 @@ const Testimonials = () => {
                   {/* - Second column - */}
                   <div className='relative md:col-span-1'>
                     <Image
-                      src={`${basePath}/${item.imageSrc}`}
+                      src={`/${item.imageSrc}`}
                       alt={item.name}
                       width={1023}
                       height={607}
