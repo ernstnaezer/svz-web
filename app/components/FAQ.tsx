@@ -183,7 +183,7 @@ export default function FAQ() {
                 STAAT JOUW VRAAG ER NIET BIJ?
               </h3>
               <p className='mb-6'>Neem contact met ons op</p>
-              <Link href='/contact#form'>
+              <Link href='/contact#form' scroll={false}>
                 <button className='btn btn-secondary px-6 py-2'>CONTACT</button>
               </Link>
             </div>
