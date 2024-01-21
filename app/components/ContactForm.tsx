@@ -64,7 +64,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className='w-full '>
+    <div id='form' className='w-full'>
       <h3>Stuur ons een bericht</h3>
 
       {formSubmitted ? (
