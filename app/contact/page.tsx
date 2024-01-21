@@ -98,14 +98,14 @@ const Page = () => {
               <h3>Openbaar vervoer</h3>
               <p>
                 Onze accommodatie bevindt zich op een ideale locatie, direct
-                achter het bus- en Randstadrail-station Centrum West. Hieronder
+                achter het bus- en Randstadrail-station Centrum West, Zoetermeer. Hieronder
                 vind je de actuele halte tijden voor zowel de bus als de tram.
               </p>
               <ul>
                 <li>
                   <Link href='https://9292.nl/zoetermeer/tramhalte-centrum-west'>
                     <div className='flex items-center'>
-                      Tramstation Centrum West, Zoetermeer
+                      Tramstation Centrum West
                       {externalLink}
                     </div>
                   </Link>
@@ -113,7 +113,7 @@ const Page = () => {
                 <li>
                   <Link href='https://9292.nl/zoetermeer/bushalte-station-centrum-west'>
                     <div className='flex items-center'>
-                      Busstation Station Centrum West, Zoetermeer
+                      Busstation Centrum West
                       {externalLink}
                     </div>
                   </Link>
