@@ -100,7 +100,6 @@ const Testimonials = () => {
                       alt={item.name}
                       width={1023}
                       height={607}
-                      placeholder='blur'
                     />
                   </div>
                 </div>
