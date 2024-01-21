@@ -13,6 +13,7 @@ const productionConfig = {
   images: {
     unoptimized: true,
   },
+  trailingSlash: true,
 };
 
 module.exports = isProd ? productionConfig : developmentConfig;
