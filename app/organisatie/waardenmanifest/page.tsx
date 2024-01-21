@@ -11,6 +11,11 @@ export default function Page() {
         <div className='flex justify-center'>
           <Image src={shieldImg} alt='logo' className='w-1/2 md:w-1/4' />
         </div>
+        <div>
+          S.S.V. Zoetermeer voor een sportieve verbinding in een veilige
+          omgeving. Een vereniging met historie waar je je vaardigheden in een
+          divers aanbod kunt ontwikkelen
+        </div>
         <h4>VEILIGHEID</h4>
         <p>Wij spreken elkaar serieus aan op onveilige situaties.</p>
         <p>
