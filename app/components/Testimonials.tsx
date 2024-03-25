@@ -12,10 +12,9 @@ import 'swiper/css/pagination';
 
 const testimonials = [
   {
-    name: 'Anna',
-    age: 32,
-    memberSince: 219,
-    imageSrc: 'img/anna.png',
+    name: 'Yfke',
+    memberSince: 2019,
+    imageSrc: 'img/testimonials/yfke.jpg',
     text: (
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
@@ -26,10 +25,9 @@ const testimonials = [
     ),
   },
   {
-    name: 'Bert',
-    age: 32,
-    memberSince: 219,
-    imageSrc: 'img/anna.png',
+    name: 'John',
+    memberSince: 2019,
+    imageSrc: 'img/testimonials/john.jpg',
     text: (
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
@@ -40,10 +38,9 @@ const testimonials = [
     ),
   },
   {
-    name: 'Marco',
-    age: 32,
-    memberSince: 219,
-    imageSrc: 'img/anna.png',
+    name: 'Manisha',
+    memberSince: 2019,
+    imageSrc: 'img/testimonials/manisha.jpg',
     text: (
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
@@ -54,10 +51,9 @@ const testimonials = [
     ),
   },
   {
-    name: 'Henk',
-    age: 32,
-    memberSince: 219,
-    imageSrc: 'img/anna.png',
+    name: 'Alan',
+    memberSince: 2019,
+    imageSrc: 'img/testimonials/alan.jpg',
     text: (
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
@@ -88,7 +84,7 @@ const Testimonials = () => {
                 <div className='grid gap-8 md:grid-cols-2 md:px-14'>
                   <div className='col-span-1'>
                     <h1 className='mb-4 text-xl'>
-                      {item.name}, {item.age} jaar, lid sinds {item.memberSince}
+                      {item.name}, lid sinds {item.memberSince}
                     </h1>
                     {item.text}
                   </div>
