@@ -18,7 +18,7 @@ const Stats: React.FC = () => {
             </div>
             <div className='flex flex-col items-center md:items-start'>
               <h1 className='text-lg'>Disciplines</h1>
-              <p className='text-2xl'>9</p>
+              <p className='text-2xl'>14</p>
             </div>
           </div>
           {/* - Openings tijden, on desktop part of the stats block - */}
