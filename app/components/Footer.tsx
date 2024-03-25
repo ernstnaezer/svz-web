@@ -12,7 +12,7 @@ const Footer = () => {
           <p>079 - 3514140</p>
           <a
             href='info@schietverenigingzoetermeer.nl'
-            className='text-blue-600'
+            className='text-blue-600 underline'
           >
             info@schietverenigingzoetermeer.nl
           </a>
@@ -26,13 +26,19 @@ const Footer = () => {
         <div className='flex flex-col'>
           <h3 className='mb-2 text-lg font-medium'>BELANGRIJKE INFORMATIE</h3>
           <p>
-            <Link href='/organisatie'>Bestuur en Organisatie</Link>
+            <Link className='underline' href='/organisatie'>
+              Bestuur en Organisatie
+            </Link>
           </p>
           <p>
-            <Link href='/organisatie/waardenmanifest'>Waardenmanifest</Link>
+            <Link className='underline' href='/organisatie/waardenmanifest'>
+              Waardenmanifest
+            </Link>
           </p>
           <p>
-            <Link href='/organisatie/stukken'>Stukken</Link>
+            <Link className='underline' href='/organisatie/stukken'>
+              Stukken
+            </Link>
           </p>
         </div>
       </div>

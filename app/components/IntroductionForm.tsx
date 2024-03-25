@@ -356,7 +356,7 @@ const IntroductionForm: React.FC<IntroductionFormProps> = ({
                   <p className={textColorClass}>
                     Wil je meer weten voordat je je aanmeldt? Lees dan{' '}
                     <Link
-                      className={`underline ${textColorClass}`}
+                      className={`underline ${textColorClass} underline`}
                       href='/lidmaatschap/introductieavond'
                     >
                       hier alle details

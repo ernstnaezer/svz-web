@@ -25,7 +25,7 @@ const ContentLayout: React.FC<ContentLayoutProps> = ({ title, children }) => {
               <p>079 - 3514140</p>
               <a
                 href='mailto:info@schietverenigingzoetermeer.nl'
-                className='text-blue-600'
+                className='text-blue-600 underline'
               >
                 info@schietverenigingzoetermeer.nl
               </a>
