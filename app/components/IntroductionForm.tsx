@@ -350,7 +350,14 @@ const IntroductionForm: React.FC<IntroductionFormProps> = ({
                   Voor onze introductieavonden geldt een minimumleeftijd van 14
                   jaar en we vragen deelnemers een geldig legitimatiebewijs mee
                   te nemen. De kosten voor deelname bedragen €25,00. De avonden
-                  vinden meestal plaats op dinsdagavond.
+                  vinden meestal plaats op dinsdagavond. Voor vragen over
+                  persoonsgevens, zie onze{' '}
+                  <Link
+                    className={`underline ${textColorClass} underline`}
+                    href='/organisatie/stukken'
+                  >
+                    informatiebrochure
+                  </Link>
                 </p>
                 {!contentMode && (
                   <p className={textColorClass}>
