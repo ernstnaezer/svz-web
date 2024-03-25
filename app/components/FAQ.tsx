@@ -154,7 +154,10 @@ export default function FAQ() {
 
   return (
     <>
-      <h2 className='mb-2 text-xl font-bold'>FAQ</h2>
+      <div className='ml-1 w-40'>
+        <h2 className='mb-2 text-xl font-bold'>VEEL GESTELDE VRAGEN</h2>
+      </div>
+
       <div className='grid grid-cols-1 gap-8 md:grid-cols-3'>
         <div className='space-y-4 md:col-span-2'>
           {faqs.map((faq, index) => (
