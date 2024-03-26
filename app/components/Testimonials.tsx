@@ -52,14 +52,18 @@ const testimonials = [
   },
   {
     name: 'Alan',
-    memberSince: 2019,
+    memberSince: 2022,
     imageSrc: 'img/testimonials/alan.jpg',
     text: (
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
-        perspiciatis nisi a sequi? Expedita, eligendi excepturi! Iusto ab
-        possimus magni? Quasi non consequuntur sunt odit adipisci provident ex!
-        Rerum, esse.
+        Na een drukke werkdag is het erg ontspannen om een serie te schieten. De
+        focus, concentratie en beheersing die nodig is om telkens weer het
+        midden van de kaart te raken, je beste score willen neerzetten.
+        <br />
+        <br />
+        Soms gaat dat gemakkelijk en lijkt het automatisch te gaan, de andere
+        keer is het een “zware” mentale strijd...dat maakt het ook zo leuk en
+        uitdagend! En na afloop is het altijd erg gezellig in de kantine!
       </p>
     ),
   },
