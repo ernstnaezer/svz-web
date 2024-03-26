@@ -1,30 +1,6 @@
 const puppeteer = require('puppeteer');
 const terminate = require('terminate');
 const { exec } = require('child_process');
-const util = require('util');
-const fs = require('fs');
-const glob = require('glob-promise');
-
-// Promisify the necessary functions
-const globAsync = util.promisify(glob);
-const unlinkAsync = util.promisify(fs.unlink);
-
-async function deleteMatchingFiles(pattern) {
-  try {
-    // Find files matching the pattern
-    const files = await globAsync(pattern);
-
-    // Create an array of promises for each file deletion
-    const deletePromises = files.map((file) => unlinkAsync(file));
-
-    // Wait for all deletions to complete
-    await Promise.all(deletePromises);
-
-    console.log(`Deleted ${files.length} file(s) matching pattern: ${pattern}`);
-  } catch (err) {
-    console.error('Error occurred:', err);
-  }
-}
 
 // Function to start the Next.js application
 function startNextApp() {
@@ -44,12 +20,6 @@ function startNextApp() {
   });
 }
 
-// Function to format the current date and time
-function formatDate() {
-  const now = new Date();
-  return now.toISOString().replace(/:/g, '-').replace(/\..+/, '');
-}
-
 // Function to take a screenshot with Puppeteer
 async function takeScreenshot() {
   const browser = await puppeteer.launch();
@@ -65,7 +35,7 @@ async function takeScreenshot() {
   await new Promise((resolve) => setTimeout(resolve, 5000));
 
   // Generate a filename with the current date and time
-  const filename = `website_screenshot_${formatDate()}.png`;
+  const filename = `opengraph-image.png`;
 
   // Take a screenshot
   await page.screenshot({ path: `./public/img/${filename}` });
@@ -76,10 +46,6 @@ async function takeScreenshot() {
 
 // Main function to run the script
 async function main() {
-  console.log('Deleting old screenshots');
-  const pattern = './public/img/website_screenshot_*';
-  await deleteMatchingFiles(pattern);
-
   const serverProcess = await startNextApp();
   const screenshotFilename = await takeScreenshot();
   await terminate(serverProcess.pid);
