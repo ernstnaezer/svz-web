@@ -154,7 +154,7 @@ export default function FAQ() {
 
   return (
     <>
-      <div className='ml-1 w-40'>
+      <div className='w-40'>
         <h2 className='mb-2 text-xl font-bold'>VEEL GESTELDE VRAGEN</h2>
       </div>
 
