@@ -12,41 +12,58 @@ import 'swiper/css/pagination';
 
 const testimonials = [
   {
-    name: 'Yfke',
+    name: 'Y',
     memberSince: 2019,
     imageSrc: 'img/testimonials/yfke.jpg',
     text: (
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
-        perspiciatis nisi a sequi? Expedita, eligendi excepturi! Iusto ab
-        possimus magni? Quasi non consequuntur sunt odit adipisci provident ex!
-        Rerum, esse.
+        Ik schiet al sinds dat ik 14 jaar was. Mijn vader was al lid van de
+        vereniging, dus ik ging altijd mee met hem. Ik vond het zo interessant
+        dat ik het zelf ook wilde proberen en nu ik ben sinds 2019 zelf ook lid
+        van de schietvereniging.
+        <br />
+        <br />
+        Ik vind dit een leuke sport omdat het, na een drukke week, een moment
+        van rust biedt waarop ik me volledig kan concentreren op mijn houding,
+        ademhaling en positie. Je kunt dan alle drukte even achter je laten.
       </p>
     ),
   },
   {
     name: 'John',
-    memberSince: 2019,
+    memberSince: 2021,
     imageSrc: 'img/testimonials/john.jpg',
     text: (
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
-        perspiciatis nisi a sequi? Expedita, eligendi excepturi! Iusto ab
-        possimus magni? Quasi non consequuntur sunt odit adipisci provident ex!
-        Rerum, esse.
+        Sinds 2021 lid, maar pas eind 2022 serieus gestart. Ik voel mij
+        aangetrokken tot de sport door de rust, het moment dat ik alle stress
+        van de dag van me af laat rollen. Tegelijkertijd houd ik ook van de
+        discipline die benodigt is voor elk schot. Dankzij aanmoediging doe ik
+        nu mee aan wedstrijden en ben ik deel van een fantastische groep
+        wedstrijdschutters.
+        <br />
+        <br />
+        Ik kies voor onze vereniging vanwege de sfeer in de 'huiskamer',
+        waardoor ik vaak aanwezig ben, of ik nu schiet of als vrijwilliger help.
+        Grote kans dat je me ontmoet als je lid wordt.
       </p>
     ),
   },
   {
     name: 'Manisha',
-    memberSince: 2019,
+    memberSince: 2023,
     imageSrc: 'img/testimonials/manisha.jpg',
     text: (
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
-        perspiciatis nisi a sequi? Expedita, eligendi excepturi! Iusto ab
-        possimus magni? Quasi non consequuntur sunt odit adipisci provident ex!
-        Rerum, esse.
+        Hi! Ik ben Manisha, lid bij SSVZ sinds 2023. Door mijn gedrevenheid,
+        zocht ik sport waarbij ik zowel competitie als rust kon vinden. Na drie
+        introducties binnen de vereniging was ik verkocht. De kennisdeling die
+        op 1 staat, de sfeer onder de schutters en de gezonde competitie maakt
+        dat ik drie keer per week op de baan sta.
+        <br />
+        <br />
+        Lijkt de schietsport je interessant? Wees welkom om kennis te maken, met
+        de sport maar ook met ons als schutters!
       </p>
     ),
   },
@@ -74,7 +91,7 @@ const Testimonials = () => {
     <>
       {/* <!-- Block overlapping gray and white sections --> */}
       <div className='container relative top-24 z-20 mx-auto -mt-24 flex flex-col justify-center'>
-        <div className='ml-1 w-40'>
+        <div className='w-40'>
           <h2 className='mb-2 text-xl font-bold'>WAT ONZE LEDEN ZEGGEN</h2>
         </div>
         <div className='border border-gray-300 bg-white px-6 py-8'>
