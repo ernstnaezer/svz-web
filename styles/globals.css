@@ -9,14 +9,16 @@
   }
 }
 
-.swiper-slide {
-  height: 300px !important;
-}
+@media (min-width: 768px) {
+  .swiper-slide {
+    height: 300px !important;
+  }
 
-.swiper-slide img {
-  object-fit: cover;
-  width: 100%;
-  height: 280px;
+  .swiper-slide img {
+    object-fit: cover;
+    width: 100%;
+    height: 280px;
+  }
 }
 
 :root {

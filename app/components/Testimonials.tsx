@@ -104,10 +104,10 @@ const Testimonials = () => {
               <SwiperSlide key={idx}>
                 <div className='grid gap-8 md:grid-cols-2 md:px-14'>
                   <div className='col-span-1'>
-                    <h1 className='mb-4 text-xl'>
+                    <h1 className='mb-4 text-sm'>
                       {item.name}, lid sinds {item.memberSince}
                     </h1>
-                    {item.text}
+                    <div className='text-sm'>{item.text}</div>
                   </div>
 
                   {/* - Second column - */}
