@@ -14,7 +14,7 @@ const testimonials = [
   {
     name: 'Y',
     memberSince: 2019,
-    imageSrc: 'img/testimonials/yfke.jpg',
+    imageSrc: 'img/testimonials/y.jpg',
     text: (
       <p>
         Ik schiet al sinds dat ik 14 jaar was. Mijn vader was al lid van de
