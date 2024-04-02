@@ -101,7 +101,7 @@ export default function Page() {
         <p>
           Onze Basistrainers zijn altijd bereid u een goede basis aan te leren
           waarmee u zich veilig en succesvol verder kunt ontwikkelen als
-          sportschutter. De trainingen vinden, bij voorkeur, op de donderdagen
+          sportschutter. De trainingen vinden, bij voorkeur, op de zaterdagen
           plaats.
         </p>
         <h3>Kroon Certificatie</h3>

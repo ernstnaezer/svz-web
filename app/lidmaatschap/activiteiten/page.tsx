@@ -17,20 +17,24 @@ export default function Page() {
         </p>
         <p>
           Voor de leden wordt een aantal interne wedstrijden door uiteenlopende
-          voorjaars- en najaarscompetities extra georganiseerd. Een bijzonder en
-          voor Nederland uniek evenement is de Marathon. De deelnemende
-          schutters moeten 480 schoten in 480 minuten schieten met luchtpistool,
-          luchtgeweer of handvuurwapen. Het is een zware fysieke en mentale
-          strijd die acht uur in beslag neemt. Binnen deze tijd moeten de
-          schutters ook eten, drinken en af en toe even tot rust komen.
+          voorjaars- en najaarscompetities extra georganiseerd zoals de Marathon
+          en de Krietemeijer. De Marathon is een intense uitdaging waarbij
+          schutters in 480 minuten 480 schoten moeten lossen met luchtpistool,
+          luchtgeweer of handvuurwapen, een test van zowel fysieke als mentale
+          uithoudingsvermogen. Daarentegen biedt de Krietemeijer, vernoemd naar
+          een van oud bestuursvoorzitters, een kans voor leden van alle niveaus
+          om in een brede reeks disciplines (luchtpistool, luchtgeweer, klein
+          kaliber karabijn en klein kaliber pistool) hun vaardigheden te toetsen
+          met 10 schoten per discipline.
         </p>
         <p>
           Voor nieuwe leden wordt er na hun zgn. "Basiscursus Sportschutter" een
-          extra trainingsochtend georganiseerd op elke eerste zaterdag van de
-          maand. Onder deskundige leiding worden de beginselen van het
-          sportschieten nog eens herhaald en maken de aspiranten kennis met de
-          diverse takken van schietsport en de daarbij gebruikte wapens. Naast
-          theorie wordt vooral veel aandacht besteed aan praktische oefeningen.
+          extra trainingsochtend georganiseerd. Onder deskundige leiding worden
+          de beginselen van het sportschieten nog eens herhaald en maken de
+          aspiranten kennis met de diverse takken van schietsport en de daarbij
+          gebruikte wapens. Naast theorie wordt vooral veel aandacht besteed aan
+          praktische oefeningen. Bij voldoende aanmeldingen vinden deze
+          traininger op zaterdag.
         </p>
         <p>
           Ieder jaar wordt op 2e Pinksterdag een open dag georganiseerd. Op deze

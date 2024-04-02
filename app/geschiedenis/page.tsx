@@ -26,10 +26,9 @@ export default function Page() {
         </p>
         <p>
           De accommodatie aan de Voorweg is op 10 mei 1975 officieel geopend. Op
-          de bovenverdieping bevinden zich de kantine, de bestuurskamer, de
-          riante rokersruimte en 7 schietbanen voor het “luchtschieten”. Dit
-          zijn 10-meter banen waar alleen met luchtpistool en luchtgeweer
-          geschoten mag worden.
+          de bovenverdieping bevinden zich de kantine, de bestuurskamer en 7
+          schietbanen voor het “luchtschieten”. Dit zijn 10-meter banen waar
+          alleen met luchtpistool en luchtgeweer geschoten mag worden.
         </p>
         <h3>Het pand</h3>
         <p>
@@ -38,8 +37,8 @@ export default function Page() {
           baancommando bij de toegangsdeur hiervoor toestemming geeft. Verder is
           op de begane grond nog de sleutelhoek waar klein onderhoud aan wapens
           kan plaatsvinden, een kleedruimte en de wapenkamer ondergebracht. Alle
-          schietbanen zijn voorzien van moderne baantransporten om de kaarten
-          heen en weer te halen.
+          schietbanen zijn voorzien van automatische baantransporten om de
+          kaarten heen en weer te halen.
         </p>
         <p>
           Voor de beoefening van onze groot kaliber en militair geweer

@@ -57,11 +57,10 @@ export default function Page() {
         </p>
         <h3>Baandienst</h3>
         <p>
-          Een essentieel onderdeel van je lidmaatschap is ook het meedraaien in
-          de baandienst. Dit houdt in dat je een paar keer per jaar een helpt
-          bij het beheren en overzien van de schietbanen, een belangrijke taak
-          die bijdraagt aan de veiligheid en het soepele verloop van onze
-          activiteiten.
+          Een belangrijk aspect van je lidmaatschap is deelname aan de
+          baandienst. Dit betekent dat je ongeveer drie keer per jaar bijdraagt
+          aan het beheer en toezicht op de schietbanen. Deze cruciale rol zorgt
+          voor de veiligheid en een soepel verloop van onze activiteiten.
         </p>
         <h3>Opzegtermijn</h3>
         <p>

@@ -47,41 +47,28 @@ export default function Page() {
           voor het volgende jaar. Daarnaast vragen we bij inschrijving het
           aanleveren van twee identieke, goed gelijkende pasfoto's.
         </p>
-        {/* <h4>Inschrijfkosten Jeugdleden (14 t/m 17 jaar)</h4>
-        <ul>
-          <li>€17,- voor de KNSA + €10,- contributie voor de eerste maand.</li>
-        </ul>
-        <h4>Inschrijfkosten leden (18 t/m 20 jaar)</h4>
-        <ul>
-          <li>€22,- voor de KNSA + €18,50 contributie voor de eerste maand.</li>
-        </ul>
-        <h4>Inschrijfkosten leden (21+)</h4>
-        <ul>
-          <li>€85,- voor de KNSA + €18,50 contributie voor de eerste maand.</li>
-        </ul> */}
         <h3>Baandienst - Onderdeel van je lidmaatschap</h3>
         <p>
-          Als baancommandant tijdens je dienst ben je verantwoordelijk voor het
-          overzicht op de schietbanen. Je controleert wie waar en met welk wapen
-          schiet, zorgt ervoor dat de scores juist worden geteld en in het
-          systeem worden ingevoerd, en geeft de schietbanen vrij. Ook controleer
-          je of schutters bevoegd zijn om met een bepaald wapen te schieten.
-          Deze rol is cruciaal om alles veilig en ordelijk te laten verlopen.
+          Het draaien van baandienst, ongeveer drie keer per jaar, is onderdeel
+          van je lidmaatschap.
         </p>
         <p>
-          Het draaien van baandienst, ongeveer drie keer per jaar, is een
-          essentieel onderdeel van je lidmaatschap. Deze taak is vrijwillig maar
-          zeker niet vrijblijvend, en is cruciaal voor het soepele verloop van
-          onze activiteiten. Als onderdeel van je contributie draag je direct
-          bij aan de veiligheid en organisatie tijdens de schietavonden.
+          Als baancommandant ben je verantwoordelijk voor het overzicht op de
+          schietbanen. Je taak is om toezicht te houden op wie er schiet, met
+          welk wapen en op welke baan. Daarnaast zorg je ervoor dat de scores
+          correct worden bijgehouden en ingevoerd in het systeem. Je geeft ook
+          aan wanneer schietbanen beschikbaar zijn en controleert of schutters
+          de juiste bevoegdheden hebben om met specifieke wapens te schieten.
         </p>
         <p>
-          Het is jouw verantwoordelijkheid om bij te houden wanneer je aan de
-          beurt bent voor baandienst. Mocht je een baandienst missen zonder
-          vervanger te hebben geregeld, dan ontvang je een schriftelijke
-          waarschuwing. Bij een tweede keer verzuim word je voor één maand
-          geschorst, en een derde keer verzuim kan leiden tot uitschrijving als
-          lid.
+          Elk kwartaal sturen we de planning voor het baancommando uit, zodat je
+          precies weet wanneer je ingeroosterd bent voor dienst. Het is jouw
+          taak om op die dag het baancommando te leiden. Mocht je onverhoopt
+          niet kunnen, dan ben je zelf verantwoordelijk voor het vinden van een
+          vervanger. Indien je een dienst mist zonder vervanging te hebben
+          geregeld, volgt er een schriftelijke waarschuwing. Bij een tweede
+          afwezigheid zonder vervanger word je een maand geschorst. Een derde
+          keer kan leiden tot beëindiging van je lidmaatschap.
         </p>
       </article>
     </ContentLayout>
