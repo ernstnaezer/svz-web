@@ -245,7 +245,7 @@ const IntroductionForm: React.FC<IntroductionFormProps> = ({
                 />
                 <SelectInput
                   tabIndex={5}
-                  placeholder='Voorkeurshand'
+                  placeholder='Voorkeurshand voor het schieten'
                   name='primaryAttendee.handPreference'
                   options={[
                     { label: 'Rechts', value: 'rechts' },
@@ -335,7 +335,7 @@ const IntroductionForm: React.FC<IntroductionFormProps> = ({
                       />
                       <SelectInput
                         tabIndex={5}
-                        placeholder='Voorkeurshand'
+                        placeholder='Voorkeurshand voor het schieten'
                         name={`additionalAttendees[${index}].handPreference`}
                         options={[
                           { label: 'Rechts', value: 'rechts' },
