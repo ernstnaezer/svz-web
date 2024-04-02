@@ -29,7 +29,7 @@ export const TextInput: React.FC<TextInputProps> = ({
       tabIndex={tabIndex}
       placeholder={placeholder}
       className={`block w-full p-2 ${
-        isError ? 'placeholder:text-red-700 italic' : ''
+        isError ? 'italic placeholder:text-red-700' : ''
       }`}
     />
   );
@@ -58,7 +58,7 @@ export const DatePickerInput: React.FC<DatePickerInputProps> = ({
         tabIndex={tabIndex}
         placeholderText={placeholder}
         className={`block w-full p-2 ${
-          isError ? 'placeholder:text-red-700 italic' : ''
+          isError ? 'italic placeholder:text-red-700' : ''
         }`}
         selected={(field.value && new Date(field.value)) || null}
         locale='nl'
@@ -89,18 +89,16 @@ export const SelectInput: React.FC<SelectInputProps> = ({
   const customStyles: StylesConfig = {
     control: (base: CSSObjectWithLabel) => ({
       ...base,
-      //      padding: '0.5rem',
-      fontSize: '18px',
+      fontSize: '16px',
       border: 'none',
       borderRadius: '0',
     }),
     menu: (base: CSSObjectWithLabel) => ({
       ...base,
-      fontSize: '18px', // Set font size for the menu items to 18px
+      fontSize: '16px',
     }),
     valueContainer: (base: CSSObjectWithLabel) => ({
       ...base,
-      // padding: 0, // Remove padding from the ValueContainer
     }),
     placeholder: (defaultStyles) => ({
       ...defaultStyles,
@@ -123,7 +121,7 @@ export const SelectInput: React.FC<SelectInputProps> = ({
       onBlur={() => helpers.setTouched(true, false)}
       styles={customStyles}
       className={`box-border w-full text-base
-      ${isError ? 'italic' : ''}`}
+      ${isError ? 'text-red-70 italic' : ''}`}
     />
   );
 };
@@ -148,7 +146,7 @@ export const TextAreaInput: React.FC<TextAreaInputProps> = ({
       tabIndex={tabIndex}
       placeholder={placeholder}
       className={`block w-full border p-2 ${
-        isError ? 'placeholder:text-red-700 italic' : ''
+        isError ? 'italic placeholder:text-red-700' : ''
       }`}
       rows={4}
     />
