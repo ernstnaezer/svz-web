@@ -3,7 +3,12 @@ import { Form, Formik, FormikHelpers } from 'formik';
 import emailjs from 'emailjs-com';
 import { useState } from 'react';
 import * as Yup from 'yup';
-import { TextInput, DatePickerInput, TextAreaInput } from './forms/Elements';
+import {
+  TextInput,
+  DatePickerInput,
+  TextAreaInput,
+  SelectInput,
+} from './forms/Elements';
 import Link from 'next/link';
 import React from 'react';
 
@@ -13,12 +18,14 @@ interface FormValues {
     lastName: string;
     placeOfLiving: string;
     dateOfBirth: Date | null;
+    handPreference: string;
   };
   additionalAttendees: Array<{
     firstName: string;
     lastName: string;
     placeOfLiving: string;
     dateOfBirth: Date | null;
+    handPreference: string;
   }>;
   telephone: string;
   email: string;
@@ -42,6 +49,7 @@ const IntroductionForm: React.FC<IntroductionFormProps> = ({
       lastName: '',
       placeOfLiving: '',
       dateOfBirth: null,
+      handPreference: '',
     },
     additionalAttendees: [],
     telephone: '',
@@ -64,6 +72,9 @@ const IntroductionForm: React.FC<IntroductionFormProps> = ({
     placeOfLiving: Yup.string()
       .max(100, 'Maximum of 100 characters')
       .required('Place of living is required'),
+    handPreference: Yup.string()
+      .oneOf(['rechts', 'links', 'geen voorkeur'])
+      .required('Hand preference is required'),
     dateOfBirth: Yup.date().required('Date of birth is required'),
   });
 
@@ -105,6 +116,7 @@ const IntroductionForm: React.FC<IntroductionFormProps> = ({
       lastName: primaryAttendee.lastName,
       placeOfLiving: primaryAttendee.placeOfLiving,
       dateOfBirth: formatDutchDate(primaryAttendee.dateOfBirth),
+      handPreference: primaryAttendee.handPreference,
       telephone: values.telephone,
       email: values.email,
       message: values.message,
@@ -119,6 +131,7 @@ const IntroductionForm: React.FC<IntroductionFormProps> = ({
       submissionData[`dateOfBirth_${index + 2}`] = formatDutchDate(
         attendee.dateOfBirth
       );
+      submissionData[`handPreference_${index + 2}`] = attendee.handPreference;
     });
 
     emailjs
@@ -230,14 +243,24 @@ const IntroductionForm: React.FC<IntroductionFormProps> = ({
                   placeholder='Geboortedatum'
                   name='primaryAttendee.dateOfBirth'
                 />
-                <TextInput
+                <SelectInput
                   tabIndex={5}
+                  placeholder='Voorkeurshand'
+                  name='primaryAttendee.handPreference'
+                  options={[
+                    { label: 'Rechts', value: 'rechts' },
+                    { label: 'Links', value: 'links' },
+                    { label: 'Geen voorkeur', value: 'geen voorkeur' },
+                  ]}
+                ></SelectInput>
+                <TextInput
+                  tabIndex={6}
                   placeholder='Telefoonnummer'
                   name='telephone'
                   type='tel'
                 />
                 <TextInput
-                  tabIndex={6}
+                  tabIndex={7}
                   placeholder='Email'
                   name='email'
                   type='email'
@@ -310,6 +333,16 @@ const IntroductionForm: React.FC<IntroductionFormProps> = ({
                         placeholder='Geboortedatum'
                         name={`additionalAttendees[${index}].dateOfBirth`}
                       />
+                      <SelectInput
+                        tabIndex={5}
+                        placeholder='Voorkeurshand'
+                        name={`additionalAttendees[${index}].handPreference`}
+                        options={[
+                          { label: 'Rechts', value: 'rechts' },
+                          { label: 'Links', value: 'links' },
+                          { label: 'Geen voorkeur', value: 'geen voorkeur' },
+                        ]}
+                      ></SelectInput>
                     </div>
                   </div>
                 ))}
@@ -337,6 +370,7 @@ const IntroductionForm: React.FC<IntroductionFormProps> = ({
                         lastName: '',
                         placeOfLiving: '',
                         dateOfBirth: null,
+                        handPreference: '',
                       };
                       const newAttendees =
                         values.additionalAttendees.concat(newAttendee);
@@ -355,9 +389,7 @@ const IntroductionForm: React.FC<IntroductionFormProps> = ({
                   <Link
                     className={`underline ${textColorClass} underline`}
                     href='/organisatie/stukken'
-                  >
-                    informatiebrochure
-                  </Link>
+                  ></Link>
                 </p>
                 {!contentMode && (
                   <p className={textColorClass}>
