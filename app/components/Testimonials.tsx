@@ -35,17 +35,17 @@ const testimonials = [
     imageSrc: 'img/testimonials/john.jpg',
     text: (
       <p>
-        Sinds 2021 lid, maar pas eind 2022 serieus gestart. Ik voel mij
-        aangetrokken tot de sport door de rust, het moment dat ik alle stress
-        van de dag van me af laat rollen. Tegelijkertijd houd ik ook van de
-        discipline die benodigt is voor elk schot. Dankzij aanmoediging doe ik
-        nu mee aan wedstrijden en ben ik deel van een fantastische groep
+        Wat me echt aantrekt in de schietsport is de rust en het vermogen om
+        alles om me heen even te vergeten. Ik houd van de discipline die elk
+        schot vereist. Dankzij de aanmoediging van anderen ben ik gaan deelnemen
+        aan wedstrijden en ben ik nu onderdeel van een fantastische groep
         wedstrijdschutters.
         <br />
         <br />
-        Ik kies voor onze vereniging vanwege de sfeer in de 'huiskamer',
-        waardoor ik vaak aanwezig ben, of ik nu schiet of als vrijwilliger help.
-        Grote kans dat je me ontmoet als je lid wordt.
+        Ik heb voor onze vereniging gekozen vanwege de warme sfeer in onze
+        'huiskamer', die maakt dat ik er vaak ben, of ik nu kom om te schieten
+        of om als vrijwilliger te helpen. Grote kans dat je mij tegenkomt als je
+        lid wordt.
       </p>
     ),
   },
@@ -102,21 +102,21 @@ const Testimonials = () => {
           >
             {testimonials.map((item, idx) => (
               <SwiperSlide key={idx}>
-                <div className='grid gap-8 md:grid-cols-2 md:px-14'>
+                <div className='grid gap-4 md:grid-cols-2 md:px-14'>
                   <div className='col-span-1'>
-                    <h1 className='mb-4 text-sm'>
+                    <h1 className='mb-2 text-sm'>
                       {item.name}, lid sinds {item.memberSince}
                     </h1>
                     <div className='text-sm'>{item.text}</div>
                   </div>
 
                   {/* - Second column - */}
-                  <div className='relative md:col-span-1'>
+                  <div className='mb-8 md:col-span-1'>
                     <Image
                       src={`/${item.imageSrc}`}
                       alt={item.name}
-                      width={1023}
-                      height={607}
+                      width={1024}
+                      height={638}
                     />
                   </div>
                 </div>
