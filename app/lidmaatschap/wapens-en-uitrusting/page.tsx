@@ -16,8 +16,8 @@ export default function Page() {
           "luchtschieten" is voor iedereen betaalbaar. Gevorderde schutters
           schaffen meestal een eigen wapen aan om betere prestaties te bereiken.
           Deze wapens kunnen geheel op de eigen wensen van de schutter aangepast
-          worden. Een nieuw topklasse luchtgeweer kost ongeveer 1600 Euro en een
-          luchtpistool ca. 1100 Euro. Luchtwapens zijn vrij aan te schaffen en
+          worden. Een nieuw topklasse luchtgeweer kost ongeveer 2500 Euro en een
+          luchtpistool ca. 2000 Euro. Luchtwapens zijn vrij aan te schaffen en
           men heeft er geen wapenverlof (wapenvergunning) voor nodig.
         </p>
         <p>
