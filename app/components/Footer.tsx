@@ -11,7 +11,7 @@ const Footer = () => {
           <p>2713 RX Zoetermeer</p>
           <p>079 - 3514140</p>
           <a
-            href='info@schietverenigingzoetermeer.nl'
+            href='mailto:info@schietverenigingzoetermeer.nl'
             className='text-blue-600 underline'
           >
             info@schietverenigingzoetermeer.nl
