@@ -181,7 +181,7 @@ const NavBar: React.FC<NavBarProps> = ({ darkMode = false }) => {
           >
             {' '}
             <div
-              className={`fixed right-4 top-4 z-50 h-[28px] text-nato-blue lg:hidden ${
+              className={`fixed right-4 top-2 z-50 h-[28px] text-nato-blue lg:hidden ${
                 toggleMenu ? 'show' : 'hidden'
               }`}
             >
@@ -189,11 +189,11 @@ const NavBar: React.FC<NavBarProps> = ({ darkMode = false }) => {
                 {xmark}
               </button>
             </div>
-            <div className='flex flex-col items-center gap-4 font-bold tracking-wider'>
+            <div className='flex flex-col items-center gap-2 font-bold tracking-wider'>
               <div className='flex w-full justify-center bg-white'>
                 <MobileLink
                   href={`/`}
-                  className='text-2x bg-white py-4 text-center text-nato-blue'
+                  className='text-2x bg-white py-2 text-center text-nato-blue'
                 >
                   SSV Zoetermeer
                 </MobileLink>

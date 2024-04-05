@@ -21,7 +21,7 @@ const Hero = () => {
           </h1>
           <h1 className='font-bold lg:-mt-2'>Zoetermeer</h1>
           <Link href='/lidmaatschap/introductieavond'>
-            <button className='btn btn-secondary mt-4 !px-6 text-base sm:visible'>
+            <button className='btn btn-secondary mb-4 mt-4 !px-6 text-base sm:visible'>
               WORD LID
             </button>
           </Link>
