@@ -389,16 +389,18 @@ const IntroductionForm: React.FC<IntroductionFormProps> = ({
                   <Link
                     className={`underline ${textColorClass} underline`}
                     href='/organisatie/stukken'
-                  ></Link>
+                  >
+                    informatiebrochure.
+                  </Link>
                 </p>
                 {!contentMode && (
                   <p className={textColorClass}>
-                    Wil je meer weten voordat je je aanmeldt? Lees dan{' '}
+                    Wil je meer weten voordat je je aanmeldt?{' '}
                     <Link
                       className={`underline ${textColorClass} underline`}
                       href='/lidmaatschap/introductieavond'
                     >
-                      hier alle details
+                      Lees dan hier alle details
                     </Link>
                     .
                   </p>
