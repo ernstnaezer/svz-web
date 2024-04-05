@@ -69,9 +69,9 @@ const Page = () => {
               <h3>Route</h3>
               <p>
                 Wij bevinden ons in het achtergedeelte van de boerderij aan de
-                Voorweg 54. U komt hier door op de Voorweg over het bruggetje
+                Voorweg 54. Je komt hier door op de Voorweg over het bruggetje
                 bij huisnummer 50 te gaan, direct links naast de fietsbrug naar
-                Centrum West. Aan het einde van het pad vind u de parkeerplaats
+                Centrum West. Aan het einde van het pad vind je de parkeerplaats
                 van Randstadrail-station Centrum West (Betaald parkeren!) waar
                 onze accommodatie aan grenst.
               </p>
@@ -98,8 +98,9 @@ const Page = () => {
               <h3>Openbaar vervoer</h3>
               <p>
                 Onze accommodatie bevindt zich op een ideale locatie, direct
-                achter het bus- en Randstadrail-station Centrum West, Zoetermeer. Hieronder
-                vind je de actuele halte tijden voor zowel de bus als de tram.
+                achter het bus- en Randstadrail-station Centrum West,
+                Zoetermeer. Hieronder vind je de actuele halte tijden voor zowel
+                de bus als de tram.
               </p>
               <ul>
                 <li>

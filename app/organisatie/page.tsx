@@ -99,10 +99,9 @@ export default function Page() {
         </p>
         <h3>Basistraining</h3>
         <p>
-          Onze Basistrainers zijn altijd bereid u een goede basis aan te leren
-          waarmee u zich veilig en succesvol verder kunt ontwikkelen als
-          sportschutter. De trainingen vinden, bij voorkeur, op de zaterdagen
-          plaats.
+          Onze Basistrainers zijn altijd bereid jou een goede basis aan te leren
+          waarmee je je veilig en succesvol verder kunt ontwikkelen als
+          sportschutter. De trainingen vinden meestal op de zaterdagen plaats.
         </p>
         <h3>Kroon Certificatie</h3>
         <p>
