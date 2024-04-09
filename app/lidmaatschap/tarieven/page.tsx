@@ -70,6 +70,43 @@ export default function Page() {
           afwezigheid zonder vervanger word je een maand geschorst. Een derde
           keer kan leiden tot beëindiging van je lidmaatschap.
         </p>
+        <h3>Gebruik van de Zoetermeer Pas</h3>
+        <p>
+          De Zoetermeer Pas biedt je een budget voor activiteiten binnen de
+          categorie sport, cultuur en educatie. Je kunt dit geld gebruiken om
+          (een deel van) je lidmaatschap, het inschrijfgeld, of de
+          KNSA-contributie bij onze vereniging te betalen.
+        </p>
+        <p>
+          Bij onze vereniging heb je twee opties om je pas te gebruiken: je kunt
+          het jaarbedrag van de pas in één keer gebruiken, of je betaalt 50% van
+          het totale bedrag met je pas en de rest zelf.
+        </p>
+        <p>Hieronder zie je enkele rekenvoorbeelden:</p>
+        <p>
+          <strong>Eerste jaar (inschrijfgeld en contributie):</strong>
+          <br />
+          Inschrijfgeld: €125,-
+          <br />
+          Contributie: €210,-
+          <br />
+          Betaald met pas: €180,- (in 2024)
+          <br />
+          Resterend: €155,- (dit mag je maandelijks betalen)
+          <br />
+        </p>
+        <p>
+          <strong>Tweede jaar (50% van contributie en KNSA):</strong>
+          <br />
+          Contributie: €210,0-
+          <br />
+          KNSA: €42,50
+          <br />
+          Betaald met pas: €126,25
+          <br />
+          Resterend: €126,50 (ook dit mag je maandelijks betalen)
+          <br />
+        </p>
       </article>
     </ContentLayout>
   );
