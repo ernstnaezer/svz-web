@@ -16,17 +16,17 @@ export default function Page() {
         </p>
         <h4>Jeugdleden (14 t/m 17 jaar)</h4>
         <ul>
-          <li>Aan de vereniging: € 10,- per maand of €110,- per jaar</li>
-          <li>Aan de bond (KNSA): € 17,- per jaar</li>
+          <li>Aan de vereniging: €10,- per maand of €110,- per jaar</li>
+          <li>Aan de bond (KNSA): €17,- per jaar</li>
         </ul>
         <h4>Leden (18 t/m 20)</h4>
         <ul>
-          <li>Aan de vereniging: € 18,50- per maand of €210,- per jaar</li>
+          <li>Aan de vereniging: €18,50- per maand of €210,- per jaar</li>
           <li>Aan de bond (KNSA): €22,- per jaar</li>
         </ul>{' '}
         <h4>Leden (21+)</h4>
         <ul>
-          <li>Aan de vereniging: € 18,50- per maand of €210,- per jaar</li>
+          <li>Aan de vereniging: €18,50- per maand of €210,- per jaar</li>
           <li>Aan de bond (KNSA): €42,50 per jaar</li>
         </ul>
         <p>
