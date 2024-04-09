@@ -1,5 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
+
+import banner from '../../public/img/banner-boekhouding-180x90px.png';
 
 const Footer = () => {
   return (
@@ -40,6 +43,9 @@ const Footer = () => {
               Stukken
             </Link>
           </p>
+        </div>
+        <div>
+          <Image src={banner} alt='Wij werken met e-Boekhouder.nl' />
         </div>
       </div>
     </footer>
