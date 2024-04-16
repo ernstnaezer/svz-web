@@ -116,7 +116,7 @@ export default function Page() {
           gezelligheid en sportiviteit, maar ook aan de veiligheid van onze
           leden, de samenleving en het milieu.
         </p>
-        <h3>Interne Vertrouwenspersoon</h3>
+        <h3>Interne Vertrouwenscontactpersoon</h3>
         <p>
           Wij hechten veel waarde aan een veilige en vertrouwelijke omgeving
           voor al onze leden. Daarom hebben we een interne vertrouwenspersoon
