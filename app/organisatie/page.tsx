@@ -118,7 +118,7 @@ export default function Page() {
         </p>
         <h3>Interne Vertrouwenspersoon</h3>
         <p>
-          Wij hechten we veel waarde aan een veilige en vertrouwelijke omgeving
+          Wij hechten veel waarde aan een veilige en vertrouwelijke omgeving
           voor al onze leden. Daarom hebben we een interne vertrouwenspersoon
           aangesteld. Deze persoon, verbonden aan onze vereniging, staat klaar
           voor iedereen die behoefte heeft aan een luisterend oor of advies bij
