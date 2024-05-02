@@ -8,7 +8,7 @@ const OpenDag: React.FC = () => {
     <div className='w-full text-nato-blue'>
       <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
         <div className='container'>
-          <div className='flex items-center justify-between py-6'>
+          <div className='flex flex-col items-center justify-between py-6 sm:flex-row '>
             <div className='mt-4 w-full flex-1 md:mt-0 md:w-1/2'>
               <h1 className='text-xl'>
                 <span className='font-semibold'>2e Pinksterdag - OPEN DAG</span>
