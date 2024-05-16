@@ -34,7 +34,7 @@ export default function Page() {
           aspiranten kennis met de diverse takken van schietsport en de daarbij
           gebruikte wapens. Naast theorie wordt vooral veel aandacht besteed aan
           praktische oefeningen. Bij voldoende aanmeldingen vinden deze
-          traininger op zaterdag.
+          trainingen plaats op zaterdagochtend.
         </p>
         <p>
           Ieder jaar wordt op 2e Pinksterdag een open dag georganiseerd. Op deze
