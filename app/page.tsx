@@ -8,7 +8,6 @@ import Stats from './components/Stats';
 import Testimonials from './components/Testimonials';
 import NavBar from './components/NavBar';
 import Map from './components/Map';
-import OpenDag from './components/OpenDag';
 
 const Page = () => {
   return (
@@ -16,7 +15,6 @@ const Page = () => {
       <NavBar />
 
       <div className='flex flex-col gap-12'>
-        <OpenDag />
         <Hero />
         <Shield />
         <Stats />
