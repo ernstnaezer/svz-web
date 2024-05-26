@@ -84,8 +84,8 @@ export default function Page() {
             </li>
             <li>
               <Link
-                href='/downloads/Huishoudelijk Reglement SSV Zoetermeer 2021.pdf'
-                download='Huishoudelijk Reglement SSV Zoetermeer 2021'
+                href='/downloads/Huishoudelijk Reglement SSV Zoetermeer 2024.pdf'
+                download='Huishoudelijk Reglement SSV Zoetermeer 2024'
               >
                 <div className='flex items-center gap-2 underline'>
                   Huishoudelijk Reglement {icon}
