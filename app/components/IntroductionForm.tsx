@@ -90,8 +90,12 @@ const IntroductionForm: React.FC<IntroductionFormProps> = ({
       .email('Invalid email address')
       .max(100, 'Maximum of 100 characters')
       .required('Verplicht'),
-    discoveryMethod: Yup.string().max(200, 'Maximaal 200 tekens'),
-    message: Yup.string().max(1500, 'Maximaal 1500 tekens'),
+    discoveryMethod: Yup.string()
+      .required('Required')
+      .max(200, 'Maximaal 200 tekens'),
+    message: Yup.string()
+      .required('Required')
+      .max(1500, 'Maximaal 1500 tekens'),
   });
 
   const EMAILJS_SERVICEID = 'service_uejo26w';
