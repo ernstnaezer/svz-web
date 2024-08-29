@@ -16,7 +16,6 @@ const Page = () => {
       <NavBar />
 
       <div className='flex flex-col gap-12'>
-        <Banner message='ZomerStop' />
         <Hero />
         <Shield />
         <Stats />
