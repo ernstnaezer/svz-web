@@ -40,8 +40,17 @@ const Stats: React.FC = () => {
       {/* - Openings tijden, on mobile part of the overall rows - */}
       <div className='container md:hidden'>
         <div>
-          <h1 className='text-lg'>Openingstijden</h1>
-          <OpeningTimes />
+          <div className='mb-2'>
+            <h1 className='text-lg'>Openingstijden</h1>
+            <OpeningTimes />
+          </div>
+          <div>
+            <h1 className='text-lg'>Baantijden</h1>
+            <OpeningTimes baantijden={true} />
+            <p className='mt-2 text-sm'>
+              Laatste toegang: 30 min voor baansluiting
+            </p>
+          </div>
         </div>
       </div>
     </>
