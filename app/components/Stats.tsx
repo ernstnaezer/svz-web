@@ -23,13 +23,26 @@ const Stats: React.FC = () => {
           </div>
           {/* - Openings tijden, on desktop part of the stats block - */}
           <div className='hidden md:block'>
-            <OpeningTimes />
+            <div className='mb-4 flex flex-col items-center md:items-start'>
+              <h1 className='text-lg'>Openingstijden</h1>
+              <OpeningTimes />
+            </div>
+            <div className='flex flex-col items-center md:items-start'>
+              <h1 className='text-lg'>Baantijden</h1>
+              <OpeningTimes baantijden={true} />
+              <p className='mt-2 text-sm'>
+                Laatste toegang: 30 min voor baansluiting
+              </p>
+            </div>
           </div>
         </div>
       </div>
       {/* - Openings tijden, on mobile part of the overall rows - */}
       <div className='container md:hidden'>
-        <OpeningTimes />
+        <div>
+          <h1 className='text-lg'>Openingstijden</h1>
+          <OpeningTimes />
+        </div>
       </div>
     </>
   );

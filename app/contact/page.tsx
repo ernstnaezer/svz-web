@@ -10,6 +10,7 @@ import contactImg2 from '../../public/img/contact/route-2.jpg';
 import contactImg3 from '../../public/img/contact/route-3.jpg';
 import contactImg4 from '../../public/img/contact/route-4.jpg';
 import Link from 'next/link';
+import OpeningTimes from '../components/OpeningTimes';
 
 const externalLink = (
   <svg
@@ -139,9 +140,12 @@ const Page = () => {
             </div>
             <div className='flex flex-col'>
               <h3 className='mb-2 text-lg font-medium'>OPENINGSTIJDEN</h3>
-              <p>Maandag 19:30 - 22:30</p>
-              <p>Donderdag 19:30 - 22:30</p>
-              <p>Vrijdag 19:30 - 23:00</p>
+              <OpeningTimes />
+            </div>
+            <div className='flex flex-col'>
+              <h3 className='mb-2 text-lg font-medium'>BAANTIJDEN</h3>
+              <OpeningTimes baantijden={true} />
+              <p className='mt-2'>Laatste toegang: 30 min voor baansluiting</p>
             </div>
           </aside>
         </div>

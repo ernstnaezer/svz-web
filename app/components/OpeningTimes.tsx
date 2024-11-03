@@ -1,15 +1,27 @@
 import React from 'react';
 
-const OpeningTimes: React.FC = () => {
+type OpeningTimesProps = {
+  baantijden?: boolean;
+};
+
+const OpeningTimes: React.FC<OpeningTimesProps> = ({ baantijden = false }) => {
   return (
     <div>
-      <h2 className='mb-2 text-xl font-bold'>OPENINGSTIJDEN</h2>
-      <ul>
-        <li>Maandag 19:30 - 22:30</li>
-        <li>Donderdag 19:30 - 22:30</li>
-        <li>Vrijdag 19:30 - 23:00</li>
-        <li>Voorweg 54a 2713 RX Zoetermeer</li>
-      </ul>
+      {baantijden ? (
+        <>
+          <ul>
+            <li>Maandag 19:30 - 22:00</li>
+            <li>Donderdag 19:30 - 22:00</li>
+            <li>Vrijdag 19:30 - 22:30</li>
+          </ul>
+        </>
+      ) : (
+        <ul>
+          <li>Maandag 19:30 - 22:30</li>
+          <li>Donderdag 19:30 - 22:30</li>
+          <li>Vrijdag 19:30 - 23:00</li>
+        </ul>
+      )}
     </div>
   );
 };
