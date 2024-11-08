@@ -29,9 +29,9 @@ const Stats: React.FC = () => {
             </div>
             <div className='flex flex-col items-center md:items-start'>
               <h1 className='text-lg'>Baantijden</h1>
-              <OpeningTimes baantijden={true} />
+              <OpeningTimes />
               <p className='mt-2 text-sm'>
-                Laatste toegang: 30 min voor baansluiting
+                Laatste toegang: 15 min voor baansluiting
               </p>
             </div>
           </div>
@@ -46,9 +46,9 @@ const Stats: React.FC = () => {
           </div>
           <div>
             <h1 className='text-lg'>Baantijden</h1>
-            <OpeningTimes baantijden={true} />
+            <OpeningTimes />
             <p className='mt-2 text-sm'>
-              Laatste toegang: 30 min voor baansluiting
+              Laatste toegang: 15 min voor baansluiting
             </p>
           </div>
         </div>

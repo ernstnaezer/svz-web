@@ -144,8 +144,8 @@ const Page = () => {
             </div>
             <div className='flex flex-col'>
               <h3 className='mb-2 text-lg font-medium'>BAANTIJDEN</h3>
-              <OpeningTimes baantijden={true} />
-              <p className='mt-2'>Laatste toegang: 30 min voor baansluiting</p>
+              <OpeningTimes />
+              <p className='mt-2'>Laatste toegang: 15 min voor baansluiting</p>
             </div>
           </aside>
         </div>
