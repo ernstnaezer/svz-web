@@ -3,6 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 
 import banner from '../../public/img/banner-boekhouding-180x90px.png';
+import OpeningTimes from './OpeningTimes';
 
 const Footer = () => {
   return (
@@ -22,9 +23,10 @@ const Footer = () => {
         </div>
         <div className='flex flex-col'>
           <h3 className='mb-2 text-lg font-medium'>OPENINGSTIJDEN</h3>
-          <p>Maandag 19:30 - 22:30</p>
-          <p>Donderdag 19:30 - 22:30</p>
-          <p>Vrijdag 19:30 - 23:00</p>
+          <OpeningTimes />
+          <p className='mt-2'>
+            Laatste toegang tot de baan: 15 min voor sluiting
+          </p>
         </div>
         <div className='flex flex-col'>
           <h3 className='mb-2 text-lg font-medium'>BELANGRIJKE INFORMATIE</h3>
