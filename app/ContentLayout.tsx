@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './components/NavBar';
 import PageHeader from './components/PageHeader';
 import Footer from './components/Footer';
+import OpeningTimes from './components/OpeningTimes';
 
 type ContentLayoutProps = {
   children: React.ReactNode;
@@ -32,9 +33,12 @@ const ContentLayout: React.FC<ContentLayoutProps> = ({ title, children }) => {
             </div>
             <div className='flex flex-col'>
               <h3 className='mb-2 text-lg font-medium'>OPENINGSTIJDEN</h3>
-              <p>Maandag 19:30 - 22:30</p>
-              <p>Donderdag 19:30 - 22:30</p>
-              <p>Vrijdag 19:30 - 23:00</p>
+              <OpeningTimes />
+            </div>
+            <div className='flex flex-col'>
+              <h3 className='mb-2 text-lg font-medium'>BAANTIJDEN</h3>
+              <OpeningTimes />
+              <p className='mt-2'>Laatste toegang: 15 min voor baansluiting</p>
             </div>
           </aside>
         </div>
