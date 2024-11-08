@@ -112,6 +112,16 @@ export default function Page() {
                 </div>
               </Link>
             </li>
+            <li>
+              <Link
+                href='/downloads/Beleidsnotitie Ballotage aan de Voordeur - oktober 2024.pdf'
+                download='Beleidsnotitie Ballotage aan de Voordeur - oktober 2024'
+              >
+                <div className='flex items-center gap-2 underline'>
+                  Beleidsnotitie Ballotage aan de Voordeur - oktober 2024 {icon}
+                </div>
+              </Link>
+            </li>
           </ul>
         </p>
       </article>
