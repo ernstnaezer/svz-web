@@ -12,28 +12,31 @@ export default function Page() {
           De contributie bestaat uit drie delen: de contributie aan de
           vereniging, de contributie aan de bond (KNSA), en de verplichting tot
           het draaien van baandienst als onderdeel van het lidmaatschap. De
-          prijzen zijn als volgt;
+          prijzen vanaf 2025 zijn als volgt;
         </p>
         <h4>Jeugdleden (14 t/m 17 jaar)</h4>
         <ul>
-          <li>Aan de vereniging: €10,- per maand of €110,- per jaar</li>
+          <li>Aan de vereniging: €11,- per maand of €120,- per jaar</li>
           <li>Aan de bond (KNSA): €17,- per jaar</li>
         </ul>
         <h4>Leden (18 t/m 20)</h4>
         <ul>
-          <li>Aan de vereniging: €18,50- per maand of €210,- per jaar</li>
+          <li>Aan de vereniging: €20,50- per maand of €230,- per jaar</li>
           <li>Aan de bond (KNSA): €22,- per jaar</li>
         </ul>{' '}
         <h4>Leden (21+)</h4>
         <ul>
-          <li>Aan de vereniging: €18,50- per maand of €210,- per jaar</li>
+          <li>Aan de vereniging: €20,50- per maand of €230,- per jaar</li>
           <li>Aan de bond (KNSA): €42,50 per jaar</li>
         </ul>
         <p>
-          Het bestuur vraagt je vriendelijk om de contributie elke maand in de
-          eerste week over te maken. Je kunt dit doen door het bedrag over te
-          schrijven naar onze bankrekening NL96ABNA 0486607674. Vergeet niet te
-          vermelden dat het om de contributie gaat en voeg ook je naam toe,
+          Wij hebben een voorkeur voor het betalen van de contributie per jaar,
+          omdat dit onze administratie eenvoudiger maakt. Mocht je er toch voor
+          kiezen om per maand te betalen, dan vraagt het bestuur je vriendelijk
+          om de contributie elke maand in de eerste week over te maken. Je kunt
+          dit doen door het bedrag over te schrijven naar onze bankrekening{' '}
+          <strong>NL96ABNA 0486607674</strong>. Vergeet niet te vermelden dat
+          het om de contributie gaat en voeg ook je naam en/of KNSA-nummer toe,
           zodat we de betaling correct kunnen verwerken.
         </p>
         <h3>Inschrijfkosten</h3>
