@@ -40,13 +40,20 @@ export default function Page() {
         <p>
           Als lid word je automatisch aangesloten bij de KNSA (Koninklijke
           Nederlandse Schietsport Associatie), zoals wettelijk vereist is. De
-          aanmelding bij de KNSA regelen wij voor jou. Bij je inschrijving
-          betaal je eenmalig €125,00 inschrijfkosten. Deze kosten dekken onder
-          andere je eerste jaarlijkse bijdrage aan de KNSA-licentie, die
-          vervolgens elk jaar in december via onze vereniging wordt gefactureerd
-          voor het volgende jaar. Daarnaast vragen we bij inschrijving het
-          aanleveren van twee identieke, goed gelijkende pasfoto's.
+          aanmelding bij de KNSA regelen wij voor jou. Bij inschrijving betaal
+          je eenmalig inschrijfkosten, afhankelijk van je leeftijd:
         </p>
+        <ul>
+          <li>Volwassenen: €125,00</li>
+          <li>Jeugdleden (14 t/m 17 jaar): €35,00</li>
+        </ul>
+        <p>
+          Deze kosten dekken onder andere je eerste jaarlijkse bijdrage aan de
+          KNSA-licentie, die vervolgens elk jaar in december via onze vereniging
+          wordt gefactureerd voor het volgende jaar. Daarnaast vragen we bij
+          inschrijving het aanleveren van twee identieke, goed gelijkende
+          pasfoto's.
+        </p>{' '}
         <h3>Baandienst - Onderdeel van je lidmaatschap</h3>
         <p>
           Het draaien van baandienst, ongeveer drie keer per jaar, is onderdeel
