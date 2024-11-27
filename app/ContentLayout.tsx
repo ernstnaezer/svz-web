@@ -25,10 +25,10 @@ const ContentLayout: React.FC<ContentLayoutProps> = ({ title, children }) => {
               <p>2713 RX Zoetermeer</p>
               <p>079 - 3514140</p>
               <a
-                href='mailto:info@schietverenigingzoetermeer.nl'
+                href='mailto:info@ssvzoetermeer.nl'
                 className='text-blue-600 underline'
               >
-                info@schietverenigingzoetermeer.nl
+                info@ssvzoetermeer.nl
               </a>
             </div>
             <div className='flex flex-col'>

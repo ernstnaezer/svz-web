@@ -14,9 +14,9 @@ export default function Page() {
         </p>
         <h3>Dagelijks bestuur</h3>
         <p>
-          Voorzitter: voorzitter@schietverenigingzoetermeer.nl <br />
-          Penningmeester: penningmeester@schietverenigingzoetermeer.nl <br />
-          Secretaris: secretaris@schietverenigingzoetermeer.nl
+          Voorzitter: voorzitter@ssvzoetermeer.nl <br />
+          Penningmeester: penningmeester@ssvzoetermeer.nl <br />
+          Secretaris: secretaris@ssvzoetermeer.nl
         </p>
         <h3>Buitengewoon bestuursleden</h3>
         <p>

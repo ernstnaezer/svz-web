@@ -24,10 +24,7 @@ const faqs = [
         leden van de pers die interesse hebben in de schietsport, zijn welkom om
         informatie aan te vragen over de mogelijkheden bij onze vereniging. Wij
         nodigen je uit om via{' '}
-        <Link
-          className='underline'
-          href='mailto:info@schietverenigingzoetermeer.nl'
-        >
+        <Link className='underline' href='mailto:info@ssvzoetermeer.nl'>
           e-mail
         </Link>{' '}
         contact met ons op te nemen, liefst met een korte toelichting op je

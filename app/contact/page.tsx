@@ -46,11 +46,8 @@ const Page = () => {
               <p>
                 Heb je vragen over de vereniging of onze website? Neem dan
                 gerust contact met ons op. Je kunt ons een e-mail sturen naar{' '}
-                <Link
-                  className='underline'
-                  href='mailto:info@schietverenigingzoetermeer.nl'
-                >
-                  info@schietverenigingzoetermeer.nl
+                <Link className='underline' href='mailto:info@ssvzoetermeer.nl'>
+                  info@ssvzoetermeer.nl
                 </Link>{' '}
                 of gebruikmaken van het contactformulier onderaan deze pagina.
               </p>
@@ -131,11 +128,8 @@ const Page = () => {
               <p>Voorweg 54a</p>
               <p>2713 RX Zoetermeer</p>
               <p>079 - 3514140</p>
-              <a
-                href='mailto:info@schietverenigingzoetermeer.nl'
-                className='text-blue-600'
-              >
-                info@schietverenigingzoetermeer.nl
+              <a href='mailto:info@ssvzoetermeer.nl' className='text-blue-600'>
+                info@ssvzoetermeer.nl
               </a>
             </div>
             <div className='flex flex-col'>
